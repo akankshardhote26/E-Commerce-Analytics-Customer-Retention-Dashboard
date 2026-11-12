@@ -1,0 +1,32 @@
+
+# SQLite database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# macOS files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Original Olist datasets
+/data/*.csv
+
+# Generated Power BI datasets
+/ecommerce_*_powerbi.csv
+
+# Generated Excel workbook
+/Ecommerce_PowerBI_Dataset.xlsx
